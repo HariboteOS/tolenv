@@ -86,4 +86,4 @@ Already down
 ```
 
 # ライセンス
-KL-01
+MIT License
