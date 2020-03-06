@@ -1,0 +1,6 @@
+#!/bin/bash -e
+CMD=$(basename $0)
+ROOT_IN_VM='/tolenv'
+BIN_DIR_IN_VM=$(cd $(dirname $0); cd ../z_tools_linux/ ; pwd)/${CMD}
+CMD_TO_RUN="cd ${PWD} && ${BIN_DIR_IN_VM} ${@:1}"
+docker exec -it tolenv bash -c "${CMD_TO_RUN}"
