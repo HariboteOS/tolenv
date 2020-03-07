@@ -12,8 +12,8 @@ Dockerを使って様々な環境に対応したtolsetです。
 
 以下のものをインストールしておく必要があります。
 
-- [Docker](https://www.docker.com/get-started)  
-- [QEMU]（https://www.qemu.org/）
+- [Docker](https://www.docker.com/get-started)
+- [QEMU](https://www.qemu.org)
   - エミュレーション機能が不要な場合はインストール不要です
   
 ## 環境チェック
