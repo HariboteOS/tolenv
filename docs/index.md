@@ -1,6 +1,4 @@
-# tolenv
-
-tolset with Docker for multiple development environment
+# これはなに？
 
 Dockerを使って様々な環境に対応したtolsetです。
 
