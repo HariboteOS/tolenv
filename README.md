@@ -1,6 +1,6 @@
 # tolenv
 
-![tolenv_logo](docs/tolenv_logo.png)
+![tolenv_banner](docs/tolenv_banner.png)
 
 Dockerを使って様々な環境に対応したtolsetです。
 
