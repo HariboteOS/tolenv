@@ -120,7 +120,7 @@ Already down
 ```
 
 # 謝辞
-プロジェクトのアイコンについては、hideyoshiさんの[KaOS素材集](http://osask.hideyosi.com/kaos/kaos.html)よりダウンロードしたものを、KL-01ライセンスの下、改変して使用しています。
+プロジェクトのアイコンについては、hideyosiさんの[KaOS素材集](http://osask.hideyosi.com/kaos/kaos.html)よりダウンロードしたものを、KL-01ライセンスの下、改変して使用しています。
 
 # ライセンス
 MIT License
