@@ -1,5 +1,7 @@
 # tolenv
 
+![tolenv_logo](docs/tolenv_logo.png)
+
 tolset with Docker for multiple development environment
 
 Dockerを使って様々な環境に対応したtolsetです。
