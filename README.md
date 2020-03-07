@@ -34,6 +34,40 @@ Docker version 19.03.5, build 633a0ea
   - harib27f/
   - z_tools/
   - z_tools_linux/
+  
+## Dockerイメージの取得
+開発ツールを実行するために必要なDockerのイメージを取得します。この手順は、リポジトリをcloneもしくはダウンロードした後に一度だけ行えば十分です。何度実行しても害はありません。
+
+* ターミナルを開き、プロジェクトルートへcdする
+* `make pull`
+
+実行結果のサンプルはこんな感じです。
+
+```
+$ make pull
+Using default tag: latest
+latest: Pulling from hikalium/ubuntu-with-libc-i386
+423ae2b273f4: Already exists 
+de83a2304fa1: Already exists 
+f9a83bce3af0: Already exists 
+b6b53be908de: Already exists 
+5b278adba46d: Pull complete 
+e3c3960e082b: Pull complete 
+Digest: sha256:100dffd9bbf940f1ed9e413927ee12ebfa096bcec00148e94d2ac9b0cf4e0d7a
+Status: Downloaded newer image for hikalium/ubuntu-with-libc-i386:latest
+docker.io/hikalium/ubuntu-with-libc-i386:latest
+```
+
+すでにimageのpullが完了していれば以下のような出力が得られます。
+
+```
+$ make pull
+Using default tag: latest
+latest: Pulling from hikalium/ubuntu-with-libc-i386
+Digest: sha256:100dffd9bbf940f1ed9e413927ee12ebfa096bcec00148e94d2ac9b0cf4e0d7a
+Status: Image is up to date for hikalium/ubuntu-with-libc-i386:latest
+docker.io/hikalium/ubuntu-with-libc-i386:latest
+```
 
 ## 開発環境の立ち上げ
 
